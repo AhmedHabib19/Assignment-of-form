@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Form</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h2>Register New Staff</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <p>Username:</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="Username" placeholder="Type your Username" size="20" maxlength="30" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Password:</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="password" name="Password" placeholder="Type your Password" size="20" maxlength="30" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Full Name:</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="text" name="Full Name" placeholder="Your Full Name" size="20" maxlength="30" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Email:</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="email" name="Email" placeholder="Enter your Email Address" size="20" maxlength="30" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Phone Number:</p>
+                    </td>
+                    <td colspan="2">
+                        <input type="tel" name="Phone Number" placeholder="Enter your Phone Number" size="20" maxlength="30" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Address:</p>
+                    </td>
+                    <td colspan="3">
+                        <input type="text" name="Address" placeholder="Street Avenue, Building 10, ZIP 12345, Country" size="36" maxlength="70" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Designation:</p>
+                    </td>
+                    <td>
+                        <select name="Designation" required>
+                        <option value="Manager">Manager</option>
+                        <option value="HR">HR</option>
+                        <option value="Developer">Developer</option>
+                        <option value="Video EDitor">Video EDitor</option>
+                        </select>
+                    </td>
+                    <td>
+                        <p>Other:</p>
+                    </td>
+                    <td>
+                        <textarea placeholder="Your Feedback" rows="1" cols="15"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Department</p>
+                    </td>
+                    <td>
+                        <select name="Department" required>
+                            <option value="Management">Management</option>
+                            <option value="Administration">Administration</option>
+                            <option value="Executive">Executive</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Hotel Branch</p>
+                    </td>
+                    <td>
+                        <select name="Hotel Branch" required>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Islamabad">Islamabad</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Submit" name="Submit" />
+                    </td>
+                    <td>
+                        <input type="Reset" name="Reset" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
